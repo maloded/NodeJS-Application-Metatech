@@ -1,0 +1,35 @@
+{
+  "name": "nodejs-application-metatech",
+  "version": "1.0.0",
+  "description": "Framework agnostic NodeJS application structure built on the foundation of Metatech University",
+  "main": "main.js",
+  "scripts": {
+    "test": "npm run lint && tsc",
+    "lint": "eslint . && prettier -c \"**/*.js\" \"**/*.ts\"",
+    "fmt": "prettier --write \"**/*.js\" \"**/*.ts\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maloded/NodeJS-Application-Metatech.git"
+  },
+  "engines": {
+    "node": "14 || 16 || 18"
+  },
+  "author": "Malodied",
+  "license": "MIT",
+  "dependencies": {
+    "metasql": "^2.1.4",
+    "pg": "^8.10.0"
+  },
+  "devDependencies": {
+    "@types/node": "^18.15.11",
+    "@types/pg": "^8.6.6",
+    "@types/ws": "^8.5.4",
+    "eslint": "^8.37.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-prettier": "^4.2.1",
+    "prettier": "^2.8.7",
+    "typescript": "^5.0.3"
+  }
+}
