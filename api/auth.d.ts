@@ -4,5 +4,7 @@ declare namespace api.auth {
         password: string;
     }): Promise<{ status: string; token: string }>;
     function signout(): Promise<{ status: string }>;
-    function restore(parameters: { token: string }): Promise<{ status: string }>;
+    function restore(parameters: {
+        token: string;
+    }): Promise<{ status: string }>;
 }

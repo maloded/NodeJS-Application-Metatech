@@ -9,7 +9,7 @@
         retunrs: {
             status: 'string',
             token: 'string',
-        }
+        },
     },
 
     signout: {

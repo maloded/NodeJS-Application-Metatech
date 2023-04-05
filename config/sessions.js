@@ -1,6 +1,7 @@
 ({
     sid: 'token',
-    characters: 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789',
+    characters:
+        'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789',
     length: 64,
     secret: 'secret',
     regenerate: 60 * 60 * 1000,
