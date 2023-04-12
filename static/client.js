@@ -41,7 +41,7 @@ transport.ws = (url) => (strucure) => {
                     socket.send(JSON.stringify(packet));
                     socket.onmessage = (event) => {
                         const data = JSON.parse(event.data);
-                        resolve.data;
+                        resolve(data);
                     };
                 });
         }
