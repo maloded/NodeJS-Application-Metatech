@@ -10,7 +10,7 @@ const CONNECTION = {
     port: 5432,
     database: 'postgres',
     user: 'postgres',
-    password: 'postgres',
+    password: 'deded',
 };
 
 const read = (name) => fsp.readFile(path.join(DB, name), 'utf8');

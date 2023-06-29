@@ -3,7 +3,7 @@
 
     parent: '?Catalog',
     name: { type: 'string', index: true },
-    entities: { many: 'Indentifier' },
+    entities: { many: 'Identifier' },
 
     naturalKey: { unique: ['parent', 'name'] },
 });
