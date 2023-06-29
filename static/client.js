@@ -1,5 +1,3 @@
-'use strict';
-
 const transport = {};
 
 let callId = 1;

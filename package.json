@@ -13,7 +13,7 @@
     "url": "git+https://github.com/maloded/NodeJS-Application-Metatech.git"
   },
   "engines": {
-    "node": "16 || 18 || 19"
+    "node": "16 || 18 || 19 || 20"
   },
   "author": "Malodied",
   "license": "MIT",
@@ -22,12 +22,12 @@
     "pg": "^8.10.0"
   },
   "devDependencies": {
-    "@types/node": "^18.15.11",
+    "@types/node": "v20.3.1",
     "@types/pg": "^8.6.6",
     "@types/ws": "^8.5.4",
     "eslint": "^8.37.0",
     "eslint-config-prettier": "^8.8.0",
-    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-import": "^2.26.0",
     "eslint-plugin-prettier": "^4.2.1",
     "prettier": "^2.8.7",
     "typescript": "^5.0.3"
