@@ -17,8 +17,8 @@ const APPLICATION = {
     host: '127.0.0.1',
     port: 5432,
     database: 'application',
-    user: 'ded',
-    password: 'deded',
+    user: 'mess',
+    password: 'messenger',
 };
 
 const read = (name) => fsp.readFile(path.join(DB, name), 'utf8');
@@ -60,7 +60,7 @@ const executeFile = async (client, name) => {
     await executeFile(db, 'structure.sql');
     await executeFile(db, 'data.sql');
     await db.end();
-    
+
     console.log('Environment is ready');
 })().catch((err) => {
     console.error(err);

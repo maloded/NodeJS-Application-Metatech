@@ -11,8 +11,8 @@
         type: 'json',
         schema: {
             kind: { enum: ['text', 'image', 'video', 'file'] },
-            media: { array: 'string', require: false },
-            text: { type: 'string', require: false },
+            media: { array: 'string', required: false },
+            text: { type: 'string', required: false },
         },
     },
 });

@@ -1,4 +1,4 @@
 DROP DATABASE IF EXISTS application;
-DROP USER IF EXISTS ded;
-CREATE USER ded WITH PASSWORD 'deded';
-CREATE DATABASE application OWNER ded;    
+DROP USER IF EXISTS mess;
+CREATE USER mess WITH PASSWORD 'messenger';
+CREATE DATABASE application OWNER mess;    

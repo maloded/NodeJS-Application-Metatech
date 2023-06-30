@@ -1,5 +1,5 @@
 ({
-    name: 'messenger',
+    name: 'application',
     description: 'Messenger database',
     version: 1,
     driver: 'pg',
