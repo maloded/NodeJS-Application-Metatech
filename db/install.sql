@@ -1,4 +1,4 @@
-DROP DATABASE IF EXISTS messenger;
+DROP DATABASE IF EXISTS application;
 DROP USER IF EXISTS ded;
 CREATE USER ded WITH PASSWORD 'deded';
-CREATE DATABASE messenger OWNER ded;    
+CREATE DATABASE application OWNER ded;    
