@@ -27,7 +27,8 @@ const execute = async (client, sql) => {
     try {
         await client.query(sql);
     } catch (err) {
-        console.error(err.message);
+        const { message, detail } = err;
+        console.error(`${sql}\n${message}\n${detail}\n`);
     }
 };
 
